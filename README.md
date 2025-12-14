@@ -4,6 +4,10 @@
 
 Die App ist mit **HTML**, **CSS**, **JavaScript** und **JSON** umgesetzt und läuft komplett im Browser.
 
+
+## Image Preview
+![Preview](https://github.com/Florii02/haenno-zitate/blob/e96c2d92191234ce57dbde45d6080d321bada2cf/preview.jpg)
+
 ---
 
 ## Features
@@ -31,14 +35,6 @@ Die App ist mit **HTML**, **CSS**, **JavaScript** und **JSON** umgesetzt und lä
 3. Ein Klick auf den Button lädt ein neues, zufälliges Zitat.
 4. Die Daten der Zitate (Text, ggf. Autor) liegen in einer separaten JSON‑Datei (`quotes.json`).
 
----
-
-## Image Preview
-
-GitHub‑Preview:  
-[https://github.com/Florii02/haenno-zitate/blob/e96c2d92191234ce57dbde45d6080d321bada2cf/preview.jpg](https://github.com/Florii02/haenno-zitate/blob/e96c2d92191234ce57dbde45d6080d321bada2cf/preview.jpg)
-
----
 
 ## Usage
 
