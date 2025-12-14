@@ -1,56 +1,62 @@
-# Quotes Generator  
+# Elo-Climb Inspo – Quotes Generator
 
-Quotes Generator is a web-based application that displays quotes randomly. This app is built using **HTML**, **CSS**, **JavaScript**, and **JSON**. Users can display a new quote by clicking the **Refresh** or **Next Quote button**. Additionally, if a user clicks on an author's name, the app will open a new search tab based on that author's name.
+**Quotes Generator** ist eine kleine, webbasierte Anwendung, die inspirierende Zitate des High‑Elo‑Beraters **Sparkassen‑Hänno** anzeigt – perfekt für alle, die beim Elo‑Climb noch ein bisschen Extra‑Motivation brauchen.
 
-## Features  
+Die App ist mit **HTML**, **CSS**, **JavaScript** und **JSON** umgesetzt und läuft komplett im Browser.
 
-- **Random Quotes**: Displays random quotes from an available list.
-- **Refresh Button**: Click the button to get a new quote.
-- **Author Search**: Click the author's name to search for more information in a new tab.
-- **Responsive Design**: Can be used on a variety of devices, both desktop and mobile.
-- **Simple & Fast**: Built with simple technology without the need for external libraries.
+---
 
-## How It Works  
+## Features
 
-1. When the page loads, the app will display a random excerpt from the JSON file.
-2. Users can click the **Refresh** or **Next Quote** button to get a new quote.
-3. If a user clicks on the author's name, a new tab will open with the search results for that author.
+- 🎯 **Zufällige Zitate**  
+  Bei jedem Klick wird ein zufälliges Zitat aus einer Liste angezeigt.
 
-## Image Preview  
+- 🔁 **Neues Zitat per Button**  
+  Über den Button (z.B. „Gold farmen“) lässt sich jederzeit ein neues Zitat laden.
 
-![Image preview](https://github.com/user-attachments/assets/f605e11d-e5c9-4b50-b777-1420e7917b37)
+- 📱 **Responsive Design**  
+  Das Layout ist so gestaltet, dass es auf Desktop‑ und Mobilgeräten gut aussieht.
 
-## Installation  
+- ⚡ **Einfach & Schnell**  
+  Keine Frameworks, keine externen Libraries – nur Vanilla HTML/CSS/JS.
 
-Follow these steps to run this project locally:
+*(Hinweis: In der aktuellen Version wird der Autorenname nicht mehr angezeigt, obwohl er technisch weiter aus den Daten gelesen werden kann.)*
 
-```bash
-# Clone repository
-git clone https://github.com/ryzmdn/quotes-generator.git
+---
 
-# Change project directory
-cd quotes-generator
+## How It Works
 
-# Open in default code editor
-code .
-```
+1. Beim Laden der Seite wird ein zufälliges Zitat aus der `quotes.json` gelesen.
+2. Das Zitat wird im hervorgehobenen Quote‑Bereich angezeigt.
+3. Ein Klick auf den Button lädt ein neues, zufälliges Zitat.
+4. Die Daten der Zitate (Text, ggf. Autor) liegen in einer separaten JSON‑Datei (`quotes.json`).
 
-## Usage  
+---
 
-1. Open the `index.html` file in the browser.
-2. The app will instantly display a random quote.
-3. Click the **Refresh** or **Next Quote** button to get a new quote.
-4. Click on the author's name to find more information about the author.
+## Image Preview
 
-## Technology Used  
+GitHub‑Preview:  
+[https://github.com/Florii02/haenno-zitate/blob/e96c2d92191234ce57dbde45d6080d321bada2cf/preview.jpg](https://github.com/Florii02/haenno-zitate/blob/e96c2d92191234ce57dbde45d6080d321bada2cf/preview.jpg)
 
-This project was created using:
+---
 
-- **HTML5**: The main structure of the page.
-- **CSS3**: Responsive and attractive display.
-- **JavaScript**: Manages the logic of the display of quotes and user interactions.
-- **JSON**: Saves and retrieves citation data.
+## Usage
 
-## License  
+1. Repository klonen oder herunterladen.
+2. `index.html` im Browser öffnen (Doppelklick oder „Open With Live Server“ o.Ä.).
+3. Beim Laden der Seite wird automatisch ein zufälliges Zitat angezeigt.
+4. Über den Button ein neues Zitat generieren.
 
-No License.  
+Es ist kein Build‑Schritt und kein Backend notwendig.
+
+---
+
+## Project Structure
+
+```text
+.
+├── index.html   # Hauptseite mit Markup
+├── style.css    # Styling im Sparkassen-Look
+├── script.js    # Logik für zufällige Zitate & Button
+├── quotes.json  # Zitatdaten (Text, optional Autor)
+└── Haenno.jpg   # Titelbild mit Sparkassen-Hänno
