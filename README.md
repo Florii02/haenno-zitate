@@ -1,6 +1,6 @@
-# Elo-Climb Inspo – Quotes Generator
+# Elo-Climb Inspo – Zitate Generator mit 101 Zitaten
 
-**Quotes Generator** ist eine kleine, webbasierte Anwendung, die inspirierende Zitate des High‑Elo‑Beraters **Sparkassen‑Hänno** anzeigt – perfekt für alle, die beim Elo‑Climb noch ein bisschen Extra‑Motivation brauchen.
+**Elo-Climb Inspo** ist eine kleine, webbasierte Anwendung, die inspirierende Zitate des High‑Elo‑Beraters **Sparkassen‑Hänno** anzeigt – perfekt für alle, die beim Elo‑Climb noch ein bisschen Extra‑Motivation brauchen.
 
 Die App ist mit **HTML**, **CSS**, **JavaScript** und **JSON** umgesetzt und läuft komplett im Browser.
 
