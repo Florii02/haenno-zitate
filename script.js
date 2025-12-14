@@ -26,12 +26,13 @@ async function getQuotes() {
     const author = document.getElementById("author");
 
     quote.textContent = randomQuote.quote;
-    author.textContent = randomQuote.author;
-    author.href = `https://www.google.com/search?q=${encodeURIComponent(randomQuote.author)}`;
+    //author.textContent = randomQuote.author;
+    //author.href = `https://www.google.com/search?q=${encodeURIComponent(randomQuote.author)}`;
   } catch (error) {
     console.log(`Error! ${error}`);
   }
 }
 
 getQuotes();
+
 
