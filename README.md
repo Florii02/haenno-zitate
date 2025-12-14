@@ -24,8 +24,6 @@ Die App ist mit **HTML**, **CSS**, **JavaScript** und **JSON** umgesetzt und lä
 - ⚡ **Einfach & Schnell**  
   Keine Frameworks, keine externen Libraries – nur Vanilla HTML/CSS/JS.
 
-*(Hinweis: In der aktuellen Version wird der Autorenname nicht mehr angezeigt, obwohl er technisch weiter aus den Daten gelesen werden kann.)*
-
 ---
 
 ## How It Works
